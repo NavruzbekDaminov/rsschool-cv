@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: rgb(238, 229, 229);
+}
+
+.header {
+    background-color: rgb(39, 27, 27);
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link, .github-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-link, .project-link {
+    color: black;
+}
+
+.nav-link:hover, .github-link:hover {
+    color: #bab9c0;
+    text-decoration: underline;
+}
+
+.contact-link:hover, .project-link:hover {
+    color: rgb(99, 91, 91);
+    text-decoration: underline;
+}
+
+.main {
+    color: rgba(0, 0, 0, 0.750);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+}
+
+.avatar {
+    margin: 25px 0;
+}
+  
+.section {
+    width: 48%;
+    border-bottom: solid 2px grey;
+}
+
+.section-title {
+    color: black;
+    letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+
+.section-profile {
+    width: 100%;
+    border-bottom: solid 10px grey;
+}
+
+.section-contacts p {
+    margin: 0;
+    line-height: 2;
+    color: black;
+}
+
+.section-education, .section-languages {
+    border-bottom: none;
+}
+
+.type-of-contact {
+    margin-right: 15px;
+    color: #000;
+}
+
+.contact-link, .project-link {
+    text-decoration: none;
+}
+
+.summary {
+    text-align: justify;
+}
+
+.skills {
+    color: black;
+}
+
+.project-link {
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: rgb(39, 27, 27);
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-logo {
+    background-color: white;
+    height: 30px;
+}
