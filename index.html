@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CV</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="img/black.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+            rel="stylesheet" />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item">
+                            <a href="#courses" class="nav-link">Сourses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#education" class="nav-link">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#languages" class="nav-link">Languages</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <img class="avatar" src="img/Dernav.jpg" alt="my black foto"
+                        width="200px" height="200px" />
+                    <div class="name-position">
+                        <h1 class="section-title">Dernav Daminov</h1>
+                        <p>Junior Fullstuck developer</p>
+                    </div>
+                </section>
+                <section class="section section-contacts" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li class="">
+                            <span class="type-of-contact">Location:</span><i>Tashkent,
+                                Uzbekiston</i>
+                        </li>
+                        <li>
+                            <span class="type-of-contact">Phone:</span><i>+998
+                                94-579-579-6</i>
+                        </li>
+                        <li>
+                            <span class="type-of-contact">Email:</span><i>navruzbekdaminov0707@gmail.com</i>
+                        </li>
+                        <li>
+                            <span class="type-of-contact">Github:</span><i><a
+                                    href="https://github.com/NavruzbekDaminov"
+                                    class="contact-link">NavruzbekDaminov</a></i>
+                        </li>
+                        <li>
+                            <span class="type-of-contact">Telegram:</span><i><a
+                                    href="https://t.me/Navruzbek_Daminov"
+                                    class="contact-link">@Navruzbek_Daminov</a></i>
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li class="type-of-skills">HTML(PUG), CSS(SASS)</li>
+                        <li class="type-of-skills">Javascript</li>
+                        <li class="type-of-skills">Bootstrap</li>
+                        <li class="type-of-skills">BEM</li>
+                        <li class="type-of-skills">Git, GitHub</li>
+                        <li class="type-of-skills">VS Code</li>
+                        <li class="type-of-skills">SQL(MySQl)</li>
+                        <li class="type-of-skills">PHP(Laravel)</li>
+                    </ul>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code</h2>
+                    <pre>
+<code>
+    class Fruit {
+      public $name;
+      public $color;
+    
+      function __construct($name) {
+        $this->name = $name; 
+      }
+      function get_name() {
+        return $this->name;
+      }
+    }
+</code></pre>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">Сourses</h2>
+                    <ul>
+                        <li class="main-li"><span>W3School.com site HTML course</span></li>
+                        <li class="main-li"><span>W3School.com site CSS course</span></li>
+                        <li class="main-li"><span>W3School.com site JavaScript
+                                course</span></li>
+                        <li class="main-li"><span>W3School.com site Bootstrap
+                                course</span></li>
+                        <li class="main-li"><span>W3School.com site SQL course</span></li>
+                        <li class="main-li"><span>W3School.com site PHP course</span></li>
+                        <li class="main-li"><span>RegFox IT Academi course</span></li>
+                    </ul>
+                    <div id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <ol>
+                        <li>
+                            <a href="https://kadr.nuu.uz/">O'zMU Kadrlar System</a>
+                        </li>
+                        <li>
+                            <a href="https://dernavuz.netlify.app/">Personal
+                                Information</a>
+                        </li>
+                    </ol>
+                </div>
+                </section>
+                <section class="section section-education" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p>Tashkent University of Information Technologies /
+                        Software engineering Bachelor Degree 2018-2022 years</p>
+                </section>
+                <section class="section section-languages" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li class="main-li"><span>Uzbek native</span></li>
+                        <li class="main-li"><span>English A2+</span></li>
+                        <li class="main-li"><span>Russian B1</span></li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container footer-container">
+                <p>2022</p>
+                <a href="https://github.com/NavruzbekDaminov"
+                    class="github-link">NavruzbekDaminov</a>
+                <a href="https://rs.school/js"><img class="footer-logo"
+                        src="img/rs_school_js.svg"
+                        alt="logo of course" /></a>
+            </div>
+        </footer>
+    </body>
+
+</html>
